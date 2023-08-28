@@ -17,22 +17,22 @@ Before running the scripts, make sure you have the following installed:
   cd YouTube_mp3_mp4_downloader
   ```
 
-3. Install the `yt_dlp` library:
+3. Install the `yt_dlp` library:📗
 ```console
 pip install yt-dlp
 ```
 
-4. Download and install `ffmpeg`:
+4. Download 📲 and install `ffmpeg`:
 
 **Windows:**
 
 a. Visit the official FFmpeg website: https://ffmpeg.org/download.html
 
-b. Under the "Get packages & executable files" section, find Windows builds. Choose the "Windows Builds by BtbN" link.
+b. Under the "Get packages & executable files" section, find 🔍 Windows builds. Choose the "Windows Builds by BtbN" link.
 
-c. Download the appropriate version for your system (32-bit or 64-bit).
+c. Download 📲 the appropriate version for your system (32-bit or 64-bit).
 
-d. Extract the downloaded ZIP file to a directory (e.g., C:\ffmpeg).
+d. Extract the downloaded ZIP file 📂 to a directory (e.g., C:\ffmpeg).
 
 e. Add the path (e.g., C:\ffmpeg\bin) to your system's PATH variable. [Instructions](https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/)
 
@@ -46,7 +46,7 @@ brew install ffmpeg
 
 **Linux (Ubuntu/Debian):**
 
-a. Update package info:
+a. Update package 📦 info:
 sudo apt update
 
 b. Install FFmpeg:
@@ -56,11 +56,11 @@ sudo apt install ffmpeg
 
 ### Audio Downloader (`audio_downloader.py`)
 
-1. Edit the `video_urls` list in the script to include the YouTube URLs you want to download.
+1. Edit the `video_urls` list in the script 📜 to include the YouTube URLs you want to download.
 
-2. Modify the `output_path` to specify the directory for the downloaded audio files.
+2. Modify the `output_path` 📂 to specify the directory for the downloaded audio files.
 
-3. If you have installed FFmpeg in a custom location (not in the system PATH), you'll need to adjust the `ffmpeg_location` in the `ydl_opts` dictionary in the `audio_downloader.py` script. Replace `'path/to/your/ffmpeg'` with the actual path to your FFmpeg executable (if you have FFmpeg in your system PATH you will be able to run the script without needing to specify the `ffmpeg_location`):
+3. If you have installed FFmpeg in a custom location (not in the system PATH), you'll need to adjust the `ffmpeg_location` in the `ydl_opts` dictionary in the `audio_downloader.py` script 📜. Replace `'path/to/your/ffmpeg'` with the actual path to your FFmpeg executable (if you have FFmpeg in your system PATH you will be able to run the script without needing to specify the `ffmpeg_location`):
 ```python
    'ffmpeg_location': 'path/to/your/ffmpeg'
 ```
@@ -68,8 +68,8 @@ sudo apt install ffmpeg
 
 ### Video Downloader (`video_downloader.py`)
 
-1. Edit the `video_urls` list in the script to include the YouTube URLs you want to download.
+1. Edit the `video_urls` list in the script 📜 to include the YouTube URLs you want to download.
 
-2. Modify the `output_path` to specify the directory for the downloaded video files.
+2. Modify the `output_path` 📂 to specify the directory for the downloaded video files.
 
 3. Run the script:
