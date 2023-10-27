@@ -14,7 +14,7 @@ Before running the scripts, make sure you have the following installed:
 1. Clone the repository:
   ```console
   git clone https://github.com/AshotZaqoyan/YouTube-Audio-Video-Downloader.git
-  cd YouTube_mp3_mp4_downloader
+  cd YouTube-Audio-Video-Downloader
   ```
 
 3. Install the `yt_dlp` library:📗
